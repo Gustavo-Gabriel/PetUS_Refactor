@@ -7,23 +7,22 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
     var body: some View {
         
         TabView{
             FindPet()
                 .tabItem{
-                    Image(systemName: "house")
+                    Image(systemName: "magnifyingglass")
                     Text("Home")
-                }
+                }.foregroundColor(Color(navColor))
             
             Text("Settings")
                 .tabItem{
-                    Image(systemName: "gear")
+                    Image(systemName: "bookmark")
                     Text("Home")
                 }
-        }
+        }.accentColor(Color(navColor))
         
         
         
