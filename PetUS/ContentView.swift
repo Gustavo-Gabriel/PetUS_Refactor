@@ -7,12 +7,22 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack{
+            
+            Text("Encontre um pet")
+                .padding()
+                .foregroundColor(Color(.blue))
+            
+            Spacer()
+        }
+        
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
