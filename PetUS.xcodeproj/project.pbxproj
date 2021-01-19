@@ -13,6 +13,7 @@
 		F1CC6F9025B70F4400056802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CC6F8F25B70F4400056802 /* Preview Assets.xcassets */; };
 		F1CC6F9925B712EB00056802 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6F9825B712EB00056802 /* HeaderView.swift */; };
 		F1CC6F9C25B718AE00056802 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6F9B25B718AE00056802 /* Colors.swift */; };
+		F1CC6FBB25B731C300056802 /* FindPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6FBA25B731C300056802 /* FindPet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F1CC6F9125B70F4400056802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1CC6F9825B712EB00056802 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F1CC6F9B25B718AE00056802 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F1CC6FBA25B731C300056802 /* FindPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F1CC6F8E25B70F4400056802 /* Preview Content */,
 				F1CC6F9825B712EB00056802 /* HeaderView.swift */,
 				F1CC6F9B25B718AE00056802 /* Colors.swift */,
+				F1CC6FBA25B731C300056802 /* FindPet.swift */,
 			);
 			path = PetUS;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				F1CC6F9C25B718AE00056802 /* Colors.swift in Sources */,
 				F1CC6F9925B712EB00056802 /* HeaderView.swift in Sources */,
 				F1CC6F8925B70F4400056802 /* PetUSApp.swift in Sources */,
+				F1CC6FBB25B731C300056802 /* FindPet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
