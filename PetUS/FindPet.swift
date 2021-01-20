@@ -11,24 +11,26 @@ import UIKit
 struct FindPet: View {
     
     var body: some View {
-        VStack{
-            HStack{
-                VStack{
-                    HStack{
-                        
+        ZStack{
+            
+//            HStack{
+//                VStack{
+//                    HStack{
+//
+//
+//                        Spacer()
+//
+//                    }
+//
+//                    Spacer()
+//
+//                }//.background(Color(glass)).blur(radius: 40, opaque: false).edgesIgnoringSafeArea(.all)
+                }
+           // Text("Hi").font(.title)
+            Spacer()
+            
+        }.background(Image( "petBg")).edgesIgnoringSafeArea(.top)
         
-                        Spacer()
-                    }
-                    
-                    Spacer()
-                    
-                }.background(Color(glass)).blur(radius: 40, opaque: false)
-                
-            }
-            
-            
-            
-        }.background(LinearGradient(gradient: Gradient(colors: [Color(colorBackgroundGradient1), Color(colorBackgroundGradient2)]), startPoint: .topLeading, endPoint: .bottom)).edgesIgnoringSafeArea(.top)
     }
     
 }
