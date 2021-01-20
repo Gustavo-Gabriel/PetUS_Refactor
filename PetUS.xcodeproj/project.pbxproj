@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315BF59125B87B1800BF13AF /* CardPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315BF59025B87B1800BF13AF /* CardPet.swift */; };
 		F1CC6F8925B70F4400056802 /* PetUSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6F8825B70F4400056802 /* PetUSApp.swift */; };
 		F1CC6F8B25B70F4400056802 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6F8A25B70F4400056802 /* ContentView.swift */; };
 		F1CC6F8D25B70F4400056802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CC6F8C25B70F4400056802 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		315BF59025B87B1800BF13AF /* CardPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPet.swift; sourceTree = "<group>"; };
 		F1CC6F8525B70F4400056802 /* PetUS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetUS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CC6F8825B70F4400056802 /* PetUSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetUSApp.swift; sourceTree = "<group>"; };
 		F1CC6F8A25B70F4400056802 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				F1CC6F9825B712EB00056802 /* HeaderView.swift */,
 				F1CC6F9B25B718AE00056802 /* Colors.swift */,
 				F1CC6FBA25B731C300056802 /* FindPet.swift */,
+				315BF59025B87B1800BF13AF /* CardPet.swift */,
 			);
 			path = PetUS;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1CC6F8B25B70F4400056802 /* ContentView.swift in Sources */,
+				315BF59125B87B1800BF13AF /* CardPet.swift in Sources */,
 				F1CC6F9C25B718AE00056802 /* Colors.swift in Sources */,
 				F1CC6F9925B712EB00056802 /* HeaderView.swift in Sources */,
 				F1CC6F8925B70F4400056802 /* PetUSApp.swift in Sources */,

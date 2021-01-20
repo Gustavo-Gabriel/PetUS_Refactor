@@ -12,25 +12,18 @@ struct FindPet: View {
     
     var body: some View {
         ZStack{
+               VStack{
+                        HStack{
+                        HeaderView()
+                            Spacer()
+                    }
+                CardPet()
+                Spacer()
+            }
             
-//            HStack{
-//                VStack{
-//                    HStack{
-//
-//
-//                        Spacer()
-//
-//                    }
-//
-//                    Spacer()
-//
-//                }//.background(Color(glass)).blur(radius: 40, opaque: false).edgesIgnoringSafeArea(.all)
-                }
-           // Text("Hi").font(.title)
-            Spacer()
-            
-        }.background(Image( "petBg")).edgesIgnoringSafeArea(.top)
+        }.background(Image( "petBg"))
         
     }
     
 }
+

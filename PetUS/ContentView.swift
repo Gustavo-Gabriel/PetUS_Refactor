@@ -11,15 +11,14 @@ struct ContentView: View {
     var body: some View {
         
         TabView{
-            FindPet()
             
-                .tabItem{
+            FindPet().tabItem{
+                    
                     Image(systemName: "magnifyingglass")
                     Text("Home")
                 }.foregroundColor(Color(navColor))
             
-            Text("Settings")
-                .tabItem{
+            Text("Settings").tabItem{
                     Image(systemName: "bookmark")
                     Text("Home")
                 }
@@ -36,3 +35,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
