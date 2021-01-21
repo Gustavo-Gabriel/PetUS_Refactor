@@ -8,17 +8,21 @@
 import Foundation
 import SwiftUI
 import UIKit
+
 struct FindPet: View {
     
     var body: some View {
         ZStack{
-               VStack{
-                        HStack{
-                        HeaderView()
-                            Spacer()
-                    }
+            
+            VStack{
+                HStack{
+                    HeaderView()
+                    Spacer()
+                }
+                
                 CardPet()
                 Spacer()
+                
             }
             
         }.background(Image( "petBg"))

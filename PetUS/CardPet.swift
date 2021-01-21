@@ -12,7 +12,35 @@ import UIKit
 struct CardPet: View {
     @State var Currentpage = 0
     var body: some View {
-     
+        ZStack{
+            Color(.white)
+            
+            VStack{
+                Image("dog")
+                    .resizable()
+                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                    .frame(width: 275, height: 329, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                
+                HStack{
+                    Text("Yeontan")
+                        .padding(.horizontal)
+                        .font(.system(size: 18, weight: .heavy, design: .default))
+                        .foregroundColor(.black)
+                    
+                    Spacer()
+                }.padding(.vertical, 0.3)
+                
+                Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.")
+                    .font(.system(size: 10, weight: .regular, design: .default))
+                    .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                    .padding(.horizontal)
+                    .foregroundColor(.black)
+                
+                Spacer()
+            }
+        }
+        .frame(width: 275, height: 429, alignment: .center)
+        .cornerRadius(30)
     }
 }
 
