@@ -17,7 +17,7 @@ struct FindPet: View {
     var body: some View {
         ZStack{
             
-<<<<<<< Updated upstream
+
             Button(action: {
                 
                 for i in 0..<self.x.count {
@@ -26,15 +26,19 @@ struct FindPet: View {
                 
                 for i in 0..<self.degree.count {
                     self.degree[i] = 0
-=======
-            VStack{Spacer()
+
+            
+                    VStack{
+                Spacer()
                 HStack{
                     HeaderView()
                     Spacer()
->>>>>>> Stashed changes
+
                 }
                 
-            }) {
+            }
+                
+                }}){
                 Image(systemName: "return")
                     .font(.title)
             }
@@ -119,9 +123,10 @@ struct FindPet: View {
             
             
             
-        }.background(Image( "petBg"))
+        }.background(LinearGradient(gradient: Gradient(colors: [Color(colorBackgroundGradient1), Color(colorBackgroundGradient2)]), startPoint: .topLeading, endPoint: .bottomTrailing)).edgesIgnoringSafeArea(.top)
         
     }
     
-}
+            }
+    
 
