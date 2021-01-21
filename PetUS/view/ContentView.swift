@@ -19,7 +19,7 @@ struct ContentView: View {
                 }.foregroundColor(Color(navColor))
             
             Text("Settings").tabItem{
-                    Image(systemName: "heart")
+                    Image(systemName: "suit.heart")
                     Text("Home")
                 }
         }.accentColor(Color(navColor))
