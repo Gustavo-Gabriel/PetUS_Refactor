@@ -17,6 +17,7 @@ struct FindPet: View {
     var body: some View {
         ZStack{
             
+<<<<<<< Updated upstream
             Button(action: {
                 
                 for i in 0..<self.x.count {
@@ -25,6 +26,12 @@ struct FindPet: View {
                 
                 for i in 0..<self.degree.count {
                     self.degree[i] = 0
+=======
+            VStack{Spacer()
+                HStack{
+                    HeaderView()
+                    Spacer()
+>>>>>>> Stashed changes
                 }
                 
             }) {
