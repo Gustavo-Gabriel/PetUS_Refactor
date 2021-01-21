@@ -14,12 +14,12 @@ struct ContentView: View {
             
             FindPet().tabItem{
                     Image(systemName: "magnifyingglass")
-                    Text("Home")
+                    Text("Encontre um Pet")
                 }.foregroundColor(Color(navColor))
             
             Text("Settings").tabItem{
                     Image(systemName: "suit.heart")
-                    Text("Home")
+                    Text("Pets Favoritos")
                 }
         }.accentColor(Color(navColor))
         

@@ -41,6 +41,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3105E05325B9C42F0007764B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		F14BC40425B9B60500E7A552 /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +86,7 @@
 		F1CC6F8725B70F4400056802 /* PetUS */ = {
 			isa = PBXGroup;
 			children = (
+				3105E05325B9C42F0007764B /* Fonts */,
 				F14BC40525B9B62F00E7A552 /* util */,
 				F14BC40425B9B60500E7A552 /* view */,
 				F1CC6F8825B70F4400056802 /* PetUSApp.swift */,
