@@ -10,11 +10,15 @@ import SwiftUI
 import UIKit
 
 struct FindPet: View {
+
+    let pets = Pet.all
     
-    @State var x: [CGFloat] = [0,0,0,0,0]
-    @State var degree: [Double] = [0,0,0,0,0]
+    @State var x: [CGFloat] = Array(repeating: 0, count: Pet.all.count)
+    @State var degree: [Double] = Array(repeating: 0, count: Pet.all.count)
+    
     
     var body: some View {
+        
         ZStack{
             
 
@@ -26,17 +30,6 @@ struct FindPet: View {
                 
                 for i in 0..<self.degree.count {
                     self.degree[i] = 0
-
-            
-                    VStack{
-                Spacer()
-                HStack{
-                    HeaderView()
-                    Spacer()
-
-                }
-                
-            }
                 
                 }}){
                 Image(systemName: "return")
@@ -51,8 +44,8 @@ struct FindPet: View {
                         Spacer()
                     }
                     ZStack{
-                        ForEach(0..<5, id: \.self)    { i in
-                            CardPet()
+                        ForEach(0..<pets.count, id: \.self)    { i in
+                            CardPet(model: pets[i])
                                 .offset(x: self.x[i])
                                 .rotationEffect(.init(degrees: self.degree[i]))
                                 .gesture(DragGesture()

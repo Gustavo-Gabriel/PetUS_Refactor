@@ -11,18 +11,22 @@ import UIKit
 
 struct CardPet: View {
     @State var Currentpage = 0
+    
+    let model: Pet
+    
     var body: some View {
         ZStack{
             Color(.white)
             
             VStack{
-                Image("dog")
+                Image(model.picture)
                     .resizable()
-                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
                     .frame(width: 275, height: 329, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .aspectRatio(contentMode: .fill)
+                    
                 
                 HStack{
-                    Text("Yeontan")
+                    Text(model.name)
                         .padding(.horizontal)
                         .font(.system(size: 18, weight: .heavy, design: .default))
                         .foregroundColor(.black)
@@ -30,7 +34,7 @@ struct CardPet: View {
                     Spacer()
                 }.padding(.vertical, 0.3)
                 
-                Text("Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.")
+                Text(model.description)
                     .font(.system(size: 10, weight: .regular, design: .default))
                     .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                     .padding(.horizontal)
