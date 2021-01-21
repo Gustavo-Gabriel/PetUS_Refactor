@@ -22,7 +22,9 @@ struct FindPet: View {
                 
                 CardPet()
                 Spacer()
-                
+                Button{
+                    
+                }
             }
             
         }.background(Image( "petBg"))
