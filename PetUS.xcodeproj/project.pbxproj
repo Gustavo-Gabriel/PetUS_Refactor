@@ -41,6 +41,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F14BC40425B9B60500E7A552 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F1CC6F8A25B70F4400056802 /* ContentView.swift */,
+				F1CC6F9825B712EB00056802 /* HeaderView.swift */,
+				315BF59025B87B1800BF13AF /* CardPet.swift */,
+				F1CC6FBA25B731C300056802 /* FindPet.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F14BC40525B9B62F00E7A552 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F1CC6F9B25B718AE00056802 /* Colors.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
 		F1CC6F7C25B70F4400056802 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +79,12 @@
 		F1CC6F8725B70F4400056802 /* PetUS */ = {
 			isa = PBXGroup;
 			children = (
+				F14BC40525B9B62F00E7A552 /* util */,
+				F14BC40425B9B60500E7A552 /* view */,
 				F1CC6F8825B70F4400056802 /* PetUSApp.swift */,
-				F1CC6F8A25B70F4400056802 /* ContentView.swift */,
 				F1CC6F8C25B70F4400056802 /* Assets.xcassets */,
 				F1CC6F9125B70F4400056802 /* Info.plist */,
 				F1CC6F8E25B70F4400056802 /* Preview Content */,
-				F1CC6F9825B712EB00056802 /* HeaderView.swift */,
-				F1CC6F9B25B718AE00056802 /* Colors.swift */,
-				F1CC6FBA25B731C300056802 /* FindPet.swift */,
-				315BF59025B87B1800BF13AF /* CardPet.swift */,
 			);
 			path = PetUS;
 			sourceTree = "<group>";
