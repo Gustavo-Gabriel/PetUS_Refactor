@@ -13,7 +13,6 @@ struct ContentView: View {
         TabView{
             
             FindPet().tabItem{
-                    
                     Image(systemName: "magnifyingglass")
                     Text("Home")
                 }.foregroundColor(Color(navColor))
