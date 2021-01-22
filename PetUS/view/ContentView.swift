@@ -22,9 +22,6 @@ struct ContentView: View {
                     Text("Pets Favoritos")
                 }
         }.accentColor(Color(navColor))
-        
-        
-        
     }
 }
 

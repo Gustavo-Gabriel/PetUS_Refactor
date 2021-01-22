@@ -69,6 +69,14 @@
 			path = util;
 			sourceTree = "<group>";
 		};
+		F184396D25BB077A001448C5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F15C16A225BA046C0037146C /* Pet.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		F1CC6F7C25B70F4400056802 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +96,7 @@
 		F1CC6F8725B70F4400056802 /* PetUS */ = {
 			isa = PBXGroup;
 			children = (
+				F184396D25BB077A001448C5 /* model */,
 				3105E05325B9C42F0007764B /* Fonts */,
 				F14BC40525B9B62F00E7A552 /* util */,
 				F14BC40425B9B60500E7A552 /* view */,
@@ -95,7 +104,6 @@
 				F1CC6F8C25B70F4400056802 /* Assets.xcassets */,
 				F1CC6F9125B70F4400056802 /* Info.plist */,
 				F1CC6F8E25B70F4400056802 /* Preview Content */,
-				F15C16A225BA046C0037146C /* Pet.swift */,
 			);
 			path = PetUS;
 			sourceTree = "<group>";
