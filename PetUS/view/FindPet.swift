@@ -97,7 +97,7 @@ struct FindPet: View {
                         Button(action:{
                             
                         }){
-                            Image(systemName: "phone").frame(minWidth: 80, minHeight: 80).background(Color.white).foregroundColor(Color(navColor)).clipShape(Circle()).font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                            Image(systemName: "phone").frame(minWidth: 80, minHeight: 80).background(Color.white).foregroundColor(Color("iconColor")).clipShape(Circle()).font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
                             
                         }
                         .padding(.leading,100).padding(.bottom,55)
@@ -105,7 +105,7 @@ struct FindPet: View {
                         Button(action:{
                             
                         }){
-                            Image(systemName: "suit.heart").frame(minWidth: 80, minHeight: 80).background(Color.white).foregroundColor(Color(navColor)).clipShape(Circle()).font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+                            Image(systemName: "suit.heart").frame(minWidth: 80, minHeight: 80).background(Color.white).foregroundColor(Color("iconColor")).clipShape(Circle()).font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
                             
                         }.padding(.bottom,55).padding(.trailing,100)
                         
@@ -116,7 +116,7 @@ struct FindPet: View {
             
             
             
-        }.background(LinearGradient(gradient: Gradient(colors: [Color(colorBackgroundGradient1), Color(colorBackgroundGradient2)]), startPoint: .topLeading, endPoint: .bottomTrailing)).edgesIgnoringSafeArea(.top)
+        }.background(LinearGradient(gradient: Gradient(colors: [Color("Back"), Color("BackSec")]), startPoint: .topLeading, endPoint: .bottomTrailing)).edgesIgnoringSafeArea(.top)
         
     }
     

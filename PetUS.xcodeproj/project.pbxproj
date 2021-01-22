@@ -28,7 +28,7 @@
 		F1CC6F8F25B70F4400056802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1CC6F9125B70F4400056802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1CC6F9825B712EB00056802 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		F1CC6F9B25B718AE00056802 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F1CC6F9B25B718AE00056802 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; usesTabs = 0; };
 		F1CC6FBA25B731C300056802 /* FindPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -321,7 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PetUS/Preview Content\"";
-				DEVELOPMENT_TEAM = J3Q7HWN3W7;
+				DEVELOPMENT_TEAM = YSZ6N6FL5G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PetUS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -343,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PetUS/Preview Content\"";
-				DEVELOPMENT_TEAM = J3Q7HWN3W7;
+				DEVELOPMENT_TEAM = YSZ6N6FL5G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PetUS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
