@@ -3,7 +3,7 @@
 //  PetUS
 //
 //  Created by Luane dos Santos on 20/01/21.
-//
+//  Edited by Luane dos Santos on 22/01/21.
 
 import Foundation
 import SwiftUI
@@ -16,7 +16,7 @@ struct CardPet: View {
     
     var body: some View {
         ZStack{
-            Color(.white)
+            Color("cardColor")
             
             VStack{
                 Image(model.picture)
@@ -29,7 +29,7 @@ struct CardPet: View {
                     Text(model.name)
                         .padding(.horizontal)
                         .font(.system(size: 18, weight: .heavy, design: .default))
-                        .foregroundColor(.black)
+                        .foregroundColor(Color("textColor"))
                     
                     Spacer()
                 }.padding(.vertical, 0.3)
@@ -38,7 +38,7 @@ struct CardPet: View {
                     .font(.system(size: 10, weight: .regular, design: .default))
                     .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
                     .padding(.horizontal)
-                    .foregroundColor(.black)
+                    .foregroundColor(Color("textColor"))
                 
                 Spacer()
             }

@@ -3,11 +3,14 @@
 //  PetUS
 //
 //  Created by Gustavo Anjos on 19/01/21.
-//
+//  Edited by Luane dos Santos on 22/01/21.
 
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+        UITabBar.appearance().backgroundColor = UIColor(Color("titleColor"))
+    }
     var body: some View {
         
         TabView{

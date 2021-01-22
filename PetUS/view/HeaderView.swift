@@ -11,7 +11,7 @@ import SwiftUI
 struct HeaderView: View{
     var body: some View {
         Text("Encontre um Pet").padding()
-            .foregroundColor(.white)
+            .foregroundColor(Color("titleColor"))
             .font(
                 .system(size: 34.0, weight: .bold, design: .default))
             .padding(.vertical,40)
