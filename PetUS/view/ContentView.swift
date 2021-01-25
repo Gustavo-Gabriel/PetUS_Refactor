@@ -11,6 +11,9 @@ struct ContentView: View {
     init() {
         UITabBar.appearance().backgroundColor = UIColor(Color("titleColor"))
     }
+    
+    let pets = Pet.all
+
     var body: some View {
         
         TabView{
