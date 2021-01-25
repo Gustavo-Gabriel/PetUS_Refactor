@@ -15,12 +15,12 @@ struct ContentView: View {
         
         TabView{
             
-            FindPet().tabItem{
+            FindPet().tabItem{ 
                     Image(systemName: "magnifyingglass")
                     Text("Encontre um Pet")
                 }.foregroundColor(Color("iconColor"))
             
-            Text("Settings").tabItem{
+            FavoritesPets().tabItem{
                     Image(systemName: "suit.heart")
                     Text("Pets Favoritos")
                 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		314921EB25BEF87400673036 /* FavoritesPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314921EA25BEF87400673036 /* FavoritesPet.swift */; };
 		315BF59125B87B1800BF13AF /* CardPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315BF59025B87B1800BF13AF /* CardPet.swift */; };
 		F15C16A325BA046C0037146C /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15C16A225BA046C0037146C /* Pet.swift */; };
 		F1CC6F8925B70F4400056802 /* PetUSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6F8825B70F4400056802 /* PetUSApp.swift */; };
@@ -14,11 +15,11 @@
 		F1CC6F8D25B70F4400056802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CC6F8C25B70F4400056802 /* Assets.xcassets */; };
 		F1CC6F9025B70F4400056802 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CC6F8F25B70F4400056802 /* Preview Assets.xcassets */; };
 		F1CC6F9925B712EB00056802 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6F9825B712EB00056802 /* HeaderView.swift */; };
-		F1CC6F9C25B718AE00056802 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6F9B25B718AE00056802 /* Colors.swift */; };
 		F1CC6FBB25B731C300056802 /* FindPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC6FBA25B731C300056802 /* FindPet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		314921EA25BEF87400673036 /* FavoritesPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesPet.swift; sourceTree = "<group>"; };
 		315BF59025B87B1800BF13AF /* CardPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPet.swift; sourceTree = "<group>"; };
 		F15C16A225BA046C0037146C /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		F1CC6F8525B70F4400056802 /* PetUS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetUS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,7 +29,6 @@
 		F1CC6F8F25B70F4400056802 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1CC6F9125B70F4400056802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1CC6F9825B712EB00056802 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		F1CC6F9B25B718AE00056802 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; usesTabs = 0; };
 		F1CC6FBA25B731C300056802 /* FindPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +57,7 @@
 				F1CC6F9825B712EB00056802 /* HeaderView.swift */,
 				315BF59025B87B1800BF13AF /* CardPet.swift */,
 				F1CC6FBA25B731C300056802 /* FindPet.swift */,
+				314921EA25BEF87400673036 /* FavoritesPet.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -64,7 +65,6 @@
 		F14BC40525B9B62F00E7A552 /* util */ = {
 			isa = PBXGroup;
 			children = (
-				F1CC6F9B25B718AE00056802 /* Colors.swift */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 				F15C16A325BA046C0037146C /* Pet.swift in Sources */,
 				F1CC6F8B25B70F4400056802 /* ContentView.swift in Sources */,
 				315BF59125B87B1800BF13AF /* CardPet.swift in Sources */,
-				F1CC6F9C25B718AE00056802 /* Colors.swift in Sources */,
+				314921EB25BEF87400673036 /* FavoritesPet.swift in Sources */,
 				F1CC6F9925B712EB00056802 /* HeaderView.swift in Sources */,
 				F1CC6F8925B70F4400056802 /* PetUSApp.swift in Sources */,
 				F1CC6FBB25B731C300056802 /* FindPet.swift in Sources */,
