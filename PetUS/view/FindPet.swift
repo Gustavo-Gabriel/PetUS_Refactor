@@ -16,18 +16,13 @@ struct FindPet: View {
     @State var x: [CGFloat] = Array(repeating: 0, count: Pet.all.count)
     @State var degree: [Double] = Array(repeating: 0, count: Pet.all.count)
     
-    
     var body: some View {
-        
         ZStack{
-            
-
             Button(action: {
                 
                 for i in 0..<self.x.count {
                     self.x[i] = 0
                 }
-                
                 for i in 0..<self.degree.count {
                     self.degree[i] = 0
                 
@@ -35,14 +30,9 @@ struct FindPet: View {
                 Image(systemName: "return")
                     .font(.title)
             }
-            
             ZStack{
-                
                 VStack{
-                    HStack{
-                        HeaderView()
-                        Spacer()
-                    }
+                    Spacer()
                     ZStack{
                         ForEach(0..<pets.count, id: \.self)    { i in
                             CardPet(model: pets[i])
@@ -81,45 +71,24 @@ struct FindPet: View {
                                                         self.degree[i] = 0
                                                     }
                                                 }
-                                                
-                                            }))
-                            
+                                        }))
                         }
                     }
-                    
-                    
-                    
-                    
                     Spacer()
-                    
                     HStack{
-                        
-                        Button(action:{
-                            
-                        }){
+                        Button(action:{ }){
                             Image(systemName: "phone").frame(minWidth: 80, minHeight: 80).background(Color("titleColor")).foregroundColor(Color("iconColor")).clipShape(Circle()).font(.largeTitle)
-                            
                         }
-                        .padding(.leading,100).padding(.bottom,55)
+                        .padding(.leading,100)
                         Spacer()
-                        Button(action:{
-                            
-                        }){
+                        Button(action:{ }){
                             Image(systemName: "suit.heart").frame(minWidth: 80, minHeight: 80).background(Color("titleColor")).foregroundColor(Color("iconColor")).clipShape(Circle()).font(.largeTitle)
                             
-                        }.padding(.bottom,55).padding(.trailing,100)
-                        
+                        }.padding(.trailing,100)
                     }
-                    
                 }
-            }.animation(.default)
-            
-            
-            
-        }.background(LinearGradient(gradient: Gradient(colors: [Color("Back"), Color("BackSec")]), startPoint: .topLeading, endPoint: .bottomTrailing)).edgesIgnoringSafeArea(.top)
+            }.animation(.default).padding(.vertical,180)
+        }.background(LinearGradient(gradient: Gradient(colors: [Color("Back"), Color("BackSec")]), startPoint: .top, endPoint: .bottom)).edgesIgnoringSafeArea(.top)
         
     }
-    
-            }
-    
-
+}
