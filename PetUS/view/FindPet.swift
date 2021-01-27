@@ -86,7 +86,7 @@ struct FindPet: View {
                             Image(systemName: "suit.heart").frame(minWidth: 80, minHeight: 80).background(Color("titleColor")).foregroundColor(Color("iconColor")).clipShape(Circle()).font(.largeTitle)
                             
                         }.padding(.trailing,100)
-                    }
+                    }.padding(.top,50)
                 }
             }.animation(.default).padding(.bottom,140).padding(.top, 50)
         }.background(LinearGradient(gradient: Gradient(colors: [Color("Back"), Color("BackSec")]), startPoint: .top, endPoint: .bottom)).edgesIgnoringSafeArea(.top
