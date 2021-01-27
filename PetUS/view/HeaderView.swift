@@ -13,8 +13,7 @@ struct HeaderView: View{
         Text("Encontre um Pet").padding()
             .foregroundColor(Color("titleColor"))
             .font(
-                .system(size: 34.0, weight: .bold, design: .default))
-            .padding(.vertical,40)
+                .system(size: 34.0, weight: .bold, design: .default)).padding(.bottom,60).padding(.top,30).padding(.trailing,90)
         
     }
 }

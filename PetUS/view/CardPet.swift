@@ -21,9 +21,9 @@ struct CardPet: View {
             VStack{
                 Image(model.picture)
                     .resizable()
-                    .frame(width: 275, height: 329, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 275, height: 329, alignment: .center)
                     .aspectRatio(contentMode: .fill)
-                    
+                
                 
                 HStack{
                     Text(model.name)
@@ -36,7 +36,7 @@ struct CardPet: View {
                 
                 Text(model.description)
                     .font(.system(size: 10, weight: .regular, design: .default))
-                    .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                    .multilineTextAlignment(.leading)
                     .padding(.horizontal)
                     .foregroundColor(Color("textColor"))
                 

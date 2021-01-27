@@ -32,6 +32,7 @@ struct FindPet: View {
             }
             ZStack{
                 VStack{
+                        HeaderView()
                     Spacer()
                     ZStack{
                         ForEach(0..<pets.count, id: \.self)    { i in
@@ -87,8 +88,9 @@ struct FindPet: View {
                         }.padding(.trailing,100)
                     }
                 }
-            }.animation(.default).padding(.vertical,180)
-        }.background(LinearGradient(gradient: Gradient(colors: [Color("Back"), Color("BackSec")]), startPoint: .top, endPoint: .bottom)).edgesIgnoringSafeArea(.top)
+            }.animation(.default).padding(.bottom,140).padding(.top, 50)
+        }.background(LinearGradient(gradient: Gradient(colors: [Color("Back"), Color("BackSec")]), startPoint: .top, endPoint: .bottom)).edgesIgnoringSafeArea(.top
+        )
         
     }
 }
