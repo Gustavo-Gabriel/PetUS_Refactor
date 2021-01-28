@@ -17,6 +17,8 @@ struct FindPet: View {
     @State var degree: [Double] = Array(repeating: 0, count: Pet.all.count)
     
     var body: some View {
+       NavigationView{
+            HStack{
         ZStack{
             Button(action: {
                 
@@ -32,7 +34,6 @@ struct FindPet: View {
             }
             ZStack{
                 VStack{
-                        HeaderView()
                     Spacer()
                     ZStack{
                         ForEach(0..<pets.count, id: \.self)    { i in
@@ -41,7 +42,6 @@ struct FindPet: View {
                                 .rotationEffect(.init(degrees: self.degree[i]))
                                 .gesture(DragGesture()
                                             .onChanged({(value) in
-                                                
                                                 if value.translation.width > 0 {
                                                     self.x[i] = value.translation.width
                                                     self.degree[i] = 8
@@ -49,10 +49,8 @@ struct FindPet: View {
                                                     self.x[i] = value.translation.width
                                                     self.degree[i] = -8
                                                 }
-                                                
                                             })
                                             .onEnded({(value) in
-                                                
                                                 if value.translation.width > 0 {
                                                     
                                                     if value.translation.width > 100 {
@@ -87,10 +85,11 @@ struct FindPet: View {
                             
                         }.padding(.trailing,100)
                     }.padding(.top,50)
-                }
-            }.animation(.default).padding(.bottom,140).padding(.top, 50)
+                }.padding(.top,100)
+            }.animation(.default).padding(.bottom,190).padding(.top, 50)
         }.background(LinearGradient(gradient: Gradient(colors: [Color("Back"), Color("BackSec")]), startPoint: .top, endPoint: .bottom)).edgesIgnoringSafeArea(.top
-        )
-        
+        )}
+        .navigationTitle("Encontre um Pet")
+        }
     }
 }

@@ -4,17 +4,15 @@
 //
 //  Created by Gustavo Anjos on 19/01/21.
 //  Edited by Luane dos Santos on 22/01/21.
-
+import UIKit
 import SwiftUI
 
 struct ContentView: View {
     init() {
         UITabBar.appearance().backgroundColor = UIColor(Color("titleColor"))
-       UINavigationBar.appearance().backgroundColor = UIColor(Color("Bar"))
-        UINavigationBar.appearance().largeTitleTextAttributes = [
-               .foregroundColor: UIColor(Color("titleColor"))]
-        UINavigationBar.appearance().titleTextAttributes = [
-               .foregroundColor: UIColor(Color("titleColor"))]
+        UINavigationBar.appearance().backgroundColor = UIColor(Color("navColor"))
+        UINavigationBar.appearance().largeTitleTextAttributes = [ .foregroundColor: UIColor(Color("titleColor"))]
+      //  UINavigationBar.appearance().titleTextAttributes = [ .foregroundColor: UIColor(Color("textColor"))]
                    
        }
     
