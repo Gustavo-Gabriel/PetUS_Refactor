@@ -16,8 +16,7 @@ struct FavoritesPets: View {
     let pets = Pet.all
     
     var body: some View{
-        let columns: [GridItem] =
-            Array(repeating: .init(.flexible(maximum: 300)), count: 2)
+        let columns = [GridItem(.fixed(150),spacing: 30.0),GridItem(.fixed(150))]
             //[GridItem(.adaptive(minimum: 170))]
                //  Array(repeating: .init(.adaptive(minimum)), count: 2)
         NavigationView{
@@ -26,7 +25,7 @@ struct FavoritesPets: View {
                // HeadeView()
             ScrollView{
 
-                LazyVGrid(columns: columns, spacing: 30.0){ //[GridItem(.fixed(150)), GridItem(.fixed(150))],alignment: .center, spacing: 20.0){
+                LazyVGrid(columns: columns, spacing: 40.0){ //[GridItem(.fixed(150)), GridItem(.fixed(150))],alignment: .center, spacing: 20.0){
                     ForEach(0..<pets.count){ index in
 
                         //if(pets[index].picture == "dog"){

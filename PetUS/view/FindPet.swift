@@ -29,8 +29,7 @@ struct FindPet: View {
                     self.degree[i] = 0
                 
                 }}){
-                Image(systemName: "return")
-                    .font(.title)
+                Image(systemName: "return").frame(minWidth: 80, minHeight: 80).background(Color("titleColor")).foregroundColor(Color("iconColor")).clipShape(Circle()).font(.largeTitle)
             }
             ZStack{
                 VStack{
