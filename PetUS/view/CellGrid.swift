@@ -16,11 +16,15 @@ struct CellGrid: View {
     let pet: Pet
     
     var body: some View{
-        VStack(alignment: .leading, spacing: 0){
+        VStack{
             VStack{
-            Image(pet.picture).resizable().aspectRatio(contentMode: .fit).clipShape(Circle()).padding()
-            Text(pet.name).font(.body)
+                Image(pet.picture).resizable().aspectRatio(contentMode: .fit).frame(height: 150).clipShape(RoundedRectangle(cornerRadius:15.0)).padding()
+            Text(pet.name)
+                .padding(.horizontal)
+                .font(.system(size: 18, weight: .heavy, design: .default))
+                .foregroundColor(Color("textFavColor")).padding(.bottom,20)
             }.background(Color("fundoCell")).cornerRadius(20)
-        }.background(RoundedRectangle(cornerRadius: 20.0).stroke(Color("border"), lineWidth: 5.0))
+        }.background(RoundedRectangle(cornerRadius: 20.0).stroke(Color("border"), lineWidth: 5.0))                    .frame(width: 250)
+
     }
 }

@@ -22,15 +22,15 @@ class Pet{
 
 extension Pet{
     static let all = [
+        Pet(name: "Tom", description: "Adote um gato preto, ele deixará a sua vida muito mais colorida!", picture: "cat1"),
+        Pet(name: "Pandora", description: "Meu objetivo de vida é me transformar na pessoa maravilhosa que meu cachorro acha que eu sou!", picture: "cat3"),
+        Pet(name: "Pandora", description: "Meu objetivo de vida é me transformar na pessoa maravilhosa que meu cachorro acha que eu sou!", picture: "cat1"),
         Pet(name: "Tom", description: "Adote um gato preto, ele deixará a sua vida muito mais colorida!", picture: "cat"),
-        Pet(name: "Pandora", description: "Meu objetivo de vida é me transformar na pessoa maravilhosa que meu cachorro acha que eu sou!", picture: "dog"),
-        Pet(name: "Pandora", description: "Meu objetivo de vida é me transformar na pessoa maravilhosa que meu cachorro acha que eu sou!", picture: "dog"),
-        Pet(name: "Tom", description: "Adote um gato preto, ele deixará a sua vida muito mais colorida!", picture: "cat"),
-        Pet(name: "Tom", description: "Adote um gato preto, ele deixará a sua vida muito mais colorida!", picture: "cat"),
-        Pet(name: "Pandora", description: "Meu objetivo de vida é me transformar na pessoa maravilhosa que meu cachorro acha que eu sou!", picture: "dog"),
+        Pet(name: "Tom", description: "Adote um gato preto, ele deixará a sua vida muito mais colorida!", picture: "cat3"),
+        Pet(name: "Pandora", description: "Meu objetivo de vida é me transformar na pessoa maravilhosa que meu cachorro acha que eu sou!", picture: "cat1"),
       
         Pet(name: "Pandora", description: "Meu objetivo de vida é me transformar na pessoa maravilhosa que meu cachorro acha que eu sou!", picture: "dog"),
-        Pet(name: "Tom", description: "Adote um gato preto, ele deixará a sua vida muito mais colorida!", picture: "cat"),
+        Pet(name: "Tom", description: "Adote um gato preto, ele deixará a sua vida muito mais colorida!", picture: "cat3"),
        // Pet(name: "Pandora", description: "Meu objetivo de vida é me transformar na pessoa maravilhosa que meu cachorro acha que eu sou!", picture: "dog")
     ]
 }
